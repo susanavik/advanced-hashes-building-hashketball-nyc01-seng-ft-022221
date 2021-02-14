@@ -1,8 +1,8 @@
-def game_hash
-  game_hash = {
+def game_hash(hashketball)
+  hashketball = {
     :home=> {
       :team_name=> "Brooklyn Nets",
-      :colors => [Black, White],
+      :colors => [black, white],
       :players => [{
         :player_name=>"Alan Anderson",
         :number=>0,
